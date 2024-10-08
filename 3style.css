@@ -61,3 +61,11 @@ button {
 button:hover {
     background-color: black;
 }
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Alinha em coluna, se necessário */
+}
+
